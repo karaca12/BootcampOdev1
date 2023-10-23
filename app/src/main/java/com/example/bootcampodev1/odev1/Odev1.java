@@ -1,0 +1,106 @@
+package com.example.bootcampodev1.odev1;
+
+public class Odev1 {
+    public static void main(String[] args) {
+        String ilce = "Merkezefendi";
+        System.out.println("İlçe: " + ilce);
+        String kita = "Antartika";
+        System.out.println("Kıta: " + kita);
+        long faks = 8508568675L;
+        System.out.println("Faks Numarası: 0" + faks);
+        int postaKodu = 20100;
+        System.out.println("Posta Kodu: " + postaKodu);
+        String instagramAdresi = "https://www.instagram.com";
+        System.out.println("Instagram Adresi: " + instagramAdresi);
+        String calismaBolum = "Bilgi Teknolojileri";
+        System.out.println("Çalıştığın Bölüm: " + calismaBolum);
+        int urunMiktar = 831;
+        System.out.println("Ürün Miktarı: " + urunMiktar);
+        String musteriSoyadi = "Boyraz";
+        System.out.println("Müşteri Soyadı: " + musteriSoyadi);
+        double odemeMiktari = 59.99;
+        System.out.println("Ödeme Miktarı: " + odemeMiktari + "₺");
+        String dogumTarihi = "05.12.1999";
+        System.out.println("Doğum Tarihi: " + dogumTarihi);
+        double borc = 30.99;
+        System.out.println("Borç Miktarı: " + borc + "₺");
+        String medeniHal = "Bekar";
+        System.out.println("Medeni Hal: " + medeniHal);
+        String videoYorumu = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. " +
+                "Donec at metus enim. Pellentesque habitant morbi tristique senectus et" +
+                " netus et malesuada fames ac turpis egestas.";
+        System.out.println("Video Yorumu: " + videoYorumu);
+        String odemeSaati = "15:31";
+        System.out.println("Ödeme Yapılan Saat: " + odemeSaati);
+        double eftMiktari = 9453.45;
+        System.out.println("Eft Miktarı: " + eftMiktari + "₺");
+        int satilanMiktar = 56;
+        System.out.println("Satılan Miktar: " + satilanMiktar);
+        String telefonModeli = "Galaxy S23";
+        System.out.println("Telefon Modeli: " + telefonModeli);
+        String dergiAdi = "Bilim ve Teknik";
+        System.out.println("Dergi Adı: " + dergiAdi);
+        String basimTarihi = "03.06.2013";
+        System.out.println("Basım Tarihi: " + basimTarihi);
+        double zamMiktari = 3010.62;
+        System.out.println("Zam Miktarı: " + zamMiktari + "₺");
+        int daireSayisi = 14;
+        System.out.println("Daire Sayısı: " + daireSayisi);
+        int enlem1 = 36;
+        int enlem2 = 42;
+        int boylam1 = 26;
+        int boylam2 = 45;
+        System.out.println("Türkiye, yaklaşık olarak " + enlem1 + " ila " + enlem2 +
+                " kuzey enlemi ve " + boylam1 + " ila " + boylam2 +
+                " derece doğu boylamı arasında yer almaktadır.");
+        String yemekAdi = "Mantarlı ve kaşarlı makarna";
+        System.out.println(yemekAdi + " yemeyi çok severim.");
+        double urunFiyati = 8.89;
+        System.out.println("Ürün Fiyatı: " + urunFiyati + "₺");
+        String sirketAdi = "Opel";
+        System.out.println("Şirket Adı: " + sirketAdi);
+        String videoAdi = "Java Basics";
+        System.out.println("Video Adı: " + videoAdi);
+        int muzikSuresi = 186;
+        System.out.println("Müzik Süresi: " + muzikSuresi + " saniye.");
+        double mekanPuani = 4.45;
+        System.out.println("Mekan puanı 5 üzerinden " + mekanPuani + ".");
+        char dosyaAdi = 'C';
+        System.out.println("Dosya adı \"" + dosyaAdi + "\" olarak sisteme işlenmiş.");
+        String resimFormati = "PNG";
+        System.out.println("Bu resmin formatı " + resimFormati + ".");
+        String renk = "Kırmızı";
+        System.out.println("Renk: " + renk);
+        String renkKodu = "#66FF33";
+        System.out.println("Renk Kodu: " + renkKodu);
+        String bilgisayarModeli = "Asus TUF Gaming F15 FX507ZC4-HN008";
+        System.out.println("Bilgisayar Modeli: " + bilgisayarModeli);
+        int ekranBoyutu = 23;
+        System.out.println("Ekran Boyutu: " + ekranBoyutu + " inç");
+        double kullanimSuresi = 2.5;
+        System.out.println("Kullanım Süresi: " + kullanimSuresi + " saat");
+        int basinc1 = 1;
+        double basinc2 = 9.8962;
+        System.out.println(basinc1 + "Pa(paskal), " + basinc2 + "µatm(atmosfer)'ye eşittir.");
+        String etkinlikGunu = "pazar";
+        System.out.println("Etkinliği " + etkinlikGunu + "a düzenlememiz gerekiyor.");
+        String odemeGunu = "perşembe";
+        System.out.println("Borcunu " + odemeGunu + "ye kadar ödemeni istiyorum.");
+        String yolculukCikisTarihi = "31.10.2023";
+        System.out.println(yolculukCikisTarihi + " tarihinde İstanbul'a doğru yola çıkacağım.");
+        String mahalleAdi = "Sırakapılar Mahallesi";
+        System.out.println("Mahalle Adı:" + mahalleAdi);
+        String otobusHatti = "20D";
+        System.out.println("Otobüs Hattı: " + otobusHatti);
+        int kullanilanDakika = 32;
+        System.out.println("Kullanılan Dakika: " + kullanilanDakika);
+        long kargoTakipNo = 150718050;
+        System.out.println("Kargo Takip Numarası: " + kargoTakipNo);
+        int kuponSuresi = 15;
+        System.out.println("Kupon süresi kuponu elde ettiğiniz tarihten " + kuponSuresi + " gün sonra dolacaktır.");
+        String kuponKodu = "C152FG985";
+        System.out.println("Kupon Kodunuz: " + kuponKodu);
+        String faturaTarihi = "23.10.2023";
+        System.out.println("Fatura Tarihi: " + faturaTarihi);
+    }
+}
